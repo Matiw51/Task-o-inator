@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="matiw51.task_o_inator.MainActivity">
+
+    <Button
+        android:id="@+id/Button_Add_Person"
+        android:layout_width="171dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="77dp"
+        android:layout_marginTop="115dp"
+        android:text="Add a person"
+        app:layout_constraintBottom_toTopOf="@+id/Welcome_Text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Button_Create_Project"
+        android:layout_width="174dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="133dp"
+        android:text="Create a project"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Welcome_Text" />
+
+    <TextView
+        android:id="@+id/Welcome_Text"
+        android:layout_width="225dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="58dp"
+        android:text="Welcome to Task-o-inator"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/Button_Create_Project"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Button_Add_Person"
+        app:layout_constraintVertical_bias="0.502" />
+
+</android.support.constraint.ConstraintLayout>
