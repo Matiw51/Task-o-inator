@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Task-o-inator</string>
+    <string name="title_activity_add_project">AddProjectActivity</string>
+    <string name="Name">Name</string>
+    <string name="title_activity_add_person">AddPersonActivity</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="back_button">Back</string>
+    <string name="register_here">Register here</string>
+
+    <string-array name="prioritySpinner">
+        <item>None</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_display_projects">DisplayProjectsActivity</string>
+    <string name="title_activity_add_task">AddTaskActivity</string>
+</resources>

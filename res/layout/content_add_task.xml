@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="matiw51.task_o_inator.AddTaskActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:showIn="@layout/activity_add_task">
+
+    <TextView
+        android:id="@+id/taskForm"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="77dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="85dp"
+        android:text="Fill in the textfields"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/taskName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/taskName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="96dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/taskDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taskForm" />
+
+    <EditText
+        android:id="@+id/taskDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/taskPriority"
+        app:layout_constraintStart_toStartOf="@+id/taskName"
+        app:layout_constraintTop_toBottomOf="@+id/taskName" />
+
+
+</android.support.constraint.ConstraintLayout>
